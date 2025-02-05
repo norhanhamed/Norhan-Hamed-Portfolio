@@ -38,8 +38,27 @@ import responsive_icon from './responsive_icon.png'
 import hosting_icon from './hosting_icon.png'
 import react_icon from'./react_icon.png'
 import next_icon from './next_icon.png'
+import work1 from "./work-1.png"
+import work2 from "./work-2.png"
+import work3 from "./work-3.png"
+import work4 from "./work-4.png"
+import work5 from "./work-5.png"
+import work6 from "./work-6.png"
+import work7 from "./work-7.png"
+import work8 from "./work-8.png"
+import work9 from "./work-9.png"
+
 
 export const assets = {
+    work1,
+    work2,
+    work3,
+    work4,
+    work5,
+    work6,
+    work7,
+    work8,
+    work9,
     responsive_icon,
     hosting_icon,
     react_icon,
@@ -86,49 +105,42 @@ export const workData = [
     {
         title: 'FreshCart project',
         description: 'React app',
-        bgImage: '/work-1.png',
+        bgImage: assets.work1,
         git_link: 'https://github.com/norhanhamed/FreshCart',
-        demo_link: ' https://norhanhamed.github.io/FreshCart/'
+        demo_link: ' https://norhanhamed.github.io/FreshCart/',
     },
     {
         title: 'Movies project',
         description: 'React app',
-        bgImage: '/work-2.png',
+        bgImage:  assets.work2,
         git_link: "https://github.com/norhanhamed/Movies",
-        demo_link : "https://norhanhamed.github.io/Movies/"
+        demo_link : "https://norhanhamed.github.io/Movies/",
     },
     {
         title: 'Real-Estate project',
         description: 'Recat app',
-        bgImage: '/work-6.png',
+        bgImage: assets.work6,
         git_link: 'https://github.com/norhanhamed/real-estate',
-        demo_link: 'https://norhanhamed.github.io/real-estate/'
+        demo_link: 'https://norhanhamed.github.io/real-estate/',
     },
     {
         title: 'Weather project ',
         description: 'React app',
-        bgImage: '/work-5.png',
+        bgImage: assets.work5,
         git_link: "https://github.com/norhanhamed/Weather-App",
         demo_link : " https://norhanhamed.github.io/Weather-App/"
     },
     {
-        title: 'Weather project ',
-        description: 'Html css app',
-        bgImage: '/work-7.png',
-        git_link: "https://github.com/norhanhamed/Kasper-app",
-        demo_link : " https://norhanhamed.github.io/Kasper-app/"
-    },
-    {
         title: 'platform project ',
         description: 'Html css app',
-        bgImage: '/work-8.png',
+        bgImage: assets.work8,
         git_link: "https://github.com/norhanhamed/Elzero-platform",
         demo_link : "https://norhanhamed.github.io/Elzero-platform/"
     },
     {
-        title: 'platform project ',
+        title: 'Furniture project ',
         description: 'Html css app',
-        bgImage: '/work-9.png',
+        bgImage: assets.work9,
         git_link: "https://github.com/norhanhamed/furniture",
         demo_link : "https://norhanhamed.github.io/furniture/"
     },
